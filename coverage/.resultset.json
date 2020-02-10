@@ -15,17 +15,6 @@
         1,
         null
       ],
-      "/Users/kayla/ca_projects_2/rails-app/app/controllers/application_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/kayla/ca_projects_2/rails-app/app/controllers/articles_controller.rb": [
-        1,
-        1,
-        2,
-        null,
-        null
-      ],
       "/Users/kayla/ca_projects_2/rails-app/app/mailers/application_mailer.rb": [
         0,
         0,
@@ -41,6 +30,17 @@
         null,
         0
       ],
+      "/Users/kayla/ca_projects_2/rails-app/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/kayla/ca_projects_2/rails-app/app/controllers/articles_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/kayla/ca_projects_2/rails-app/app/channels/application_cable/connection.rb": [
         0,
         0,
@@ -54,6 +54,6 @@
         0
       ]
     },
-    "timestamp": 1581360491
+    "timestamp": 1581361516
   }
 }
