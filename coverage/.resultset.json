@@ -1,0 +1,53 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/anishkanswal/rails_demo2/rails-app/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/anishkanswal/rails_demo2/rails-app/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/anishkanswal/rails_demo2/rails-app/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/anishkanswal/rails_demo2/rails-app/app/jobs/application_job.rb": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "/Users/anishkanswal/rails_demo2/rails-app/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/anishkanswal/rails_demo2/rails-app/app/controllers/articles_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/anishkanswal/rails_demo2/rails-app/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/anishkanswal/rails_demo2/rails-app/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1581348865
+  }
+}
