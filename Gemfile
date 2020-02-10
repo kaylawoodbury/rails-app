@@ -33,6 +33,7 @@ gem 'rspec-rails'
 gem 'shoulda-matchers'
 gem 'factory_bot_rails'
 gem 'capybara'
+gem 'coveralls', require: false
 end
 
 group :development do
