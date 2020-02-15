@@ -1,10 +1,17 @@
 <h1>Article Index</h1>
 <%= link_to 'New Article', new_article_path %> 
-<ul>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th></th>
+  </tr>
+ 
   <% @articles.each do |article| %>
-    <li>
-       <%= article.title %><br />
-    </li>
-    <li><%= article.text %></li>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+      <td><%= link_to 'Show', article_path(article) %></td>
+    </tr>
   <% end %>
-</ul>
+</table>
