@@ -22,3 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<a href='https://coveralls.io/github/kaylawoodbury/rails-app?branch=master'><img src='https://coveralls.io/repos/github/kaylawoodbury/rails-app/badge.svg?branch=master' alt='Coverage Status' /></a>
