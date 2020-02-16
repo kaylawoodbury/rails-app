@@ -24,12 +24,12 @@ class ArticlesController < ApplicationController
       render 'new'
     end
   end 
-  
+
   def update
     @article = Article.find(params[:id])
    
     if @article.update(article_params)
-      redirect_to @article
+      redirect_to @article, :notice => "Article updated"
     else
       render 'edit'
     end
