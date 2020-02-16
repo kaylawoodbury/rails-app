@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 feature 'User can create articles' do
     before do
       visit root_path
@@ -6,9 +8,9 @@ feature 'User can create articles' do
   
   context "Successfully create an article [Happy Path]" do
     before do
-      fill_in "Title", with: "Happy holidays"
-      fill_in "Content", with: "Buy your gifts now!"
-      click_on "Create Article"
+      fill_in "article_title", with: "Happy holidays"
+      fill_in "article_content", with: "Buy your gifts now!"
+      click_on "Save Article"
     end
   
     it 'User should be on article show page' do
@@ -17,7 +19,7 @@ feature 'User can create articles' do
     end
   
     it 'User should see success message' do
-      expect(page).to have_content 'Article was successfully created.'
+      expect(page).to have_content 'Article created'
     end
   
     it 'User should see article title' do
@@ -32,11 +34,22 @@ feature 'User can create articles' do
   context "User doesn't enter a title for the article [Sad Path]" do
     before do
       fill_in "Content", with: "Buy your gifts now!"
-      click_on "Create Article"
+      click_on "Save"
     end
   
     it 'User should see error message' do
       expect(page).to have_content "Title can't be blank"
+    end
+  end
+
+  context "User doesn't enter a content for the article [Sad Path]" do
+    before do
+      fill_in "Title", with: "Happy holidays"
+      click_on "Save"
+    end
+  
+    it 'User should see error message' do
+      expect(page).to have_content "Content can't be blank"
     end
   end
   

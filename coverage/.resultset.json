@@ -22,7 +22,15 @@
       "/Users/kayla/ca_projects_2/rails-app/app/controllers/articles_controller.rb": [
         1,
         1,
-        9,
+        10,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null,
+        1,
+        6,
         null,
         null,
         1,
@@ -30,20 +38,12 @@
         null,
         null,
         1,
-        0,
+        6,
         null,
+        6,
+        4,
         null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
+        2,
         null,
         null,
         null,
@@ -59,7 +59,7 @@
         null,
         1,
         1,
-        0,
+        6,
         null,
         null
       ],
@@ -91,6 +91,6 @@
         0
       ]
     },
-    "timestamp": 1581855196
+    "timestamp": 1581860260
   }
 }

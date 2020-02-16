@@ -19,12 +19,12 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
 
     if @article.save
-      redirect_to @article
+      redirect_to @article, :notice => "Article created"
     else
       render 'new'
     end
   end 
-
+  
   def update
     @article = Article.find(params[:id])
    
@@ -36,7 +36,7 @@ class ArticlesController < ApplicationController
   end
 
   private
-    def article_prams
-      params.require(:article).permit(:title, :text)
+    def article_params
+      params.require(:article).permit(:title, :content)
     end
 end
