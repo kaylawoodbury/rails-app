@@ -40,5 +40,4 @@ feature 'User can create articles' do
     end
   end
   
-    # Write another sad path scenario you can think of
   end
